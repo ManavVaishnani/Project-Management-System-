@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{QUERY_STRING} (^|&)XuTSGWHSYDSBWS4451544148356887248788=
+RewriteCond %{HTTP_REFERER} !^http://localhost/ [NC]
+RewriteRule ^ - [R=403,L]
